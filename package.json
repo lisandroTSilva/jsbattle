@@ -4,9 +4,9 @@
   "description": "",
   "main": "dist/js/jsbattle.min.js",
   "scripts": {
-    "start": "./node_modules/.bin/http-server ./dist -c-1",
-    "build": "./node_modules/.bin/gulp",
-    "test": "./node_modules/.bin/gulp test"
+    "start": "npx http-server ./dist -c-1",
+    "build": "gulp",
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
